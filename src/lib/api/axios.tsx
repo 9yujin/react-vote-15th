@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://bankids.click/api';
+const BASE_URL = 'https://client.bankids.click/api';
 
 export const axiosPublic = axios.create({
   baseURL: BASE_URL,
